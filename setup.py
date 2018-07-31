@@ -54,11 +54,11 @@ else:
 
 
 setup(
-    name='zerorpc',
+    name='zerorpc2',
     version=__version__,
-    description='zerorpc is a flexible RPC based on zeromq.',
+    description='zerorpc is a flexible RPC based on zeromq. With Numpy Support',
     author=__author__,
-    url='https://github.com/0rpc/zerorpc-python',
+    url='https://github.com/MichaelScript/zerorpc-python',
     packages=['zerorpc'],
     install_requires=requirements,
     tests_require=['nose'],
